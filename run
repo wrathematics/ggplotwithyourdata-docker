@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo docker build -t ggplotwithyourdata .
+sudo docker run -i -t -p 3838:3838 ggplotwithyourdata
